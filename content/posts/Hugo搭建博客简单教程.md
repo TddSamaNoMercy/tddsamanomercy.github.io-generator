@@ -5,13 +5,17 @@ draft: false
 ---
 
 # ***分享使用hugo搭建个人博客的简单教程（个人总结）***
+
+## 以下代码如无特殊说明均在项目根目录进行操作，`git add,git commit`等git相关代码为简写需要根据实际情况补充完整
 *****
 ## 下载并安装hugo
 * 从[官网](https://gohugo.io/getting-started/installing)下载
 * 配置环境变量
 *****
 ## Create a new site
-* `hugo new site sitaddress`(sitaddress这里填写github用户名.gutihub.io-generator)
+* `hugo new site siteaddress`(siteaddress这里填写github用户名.github.io-generator,用户名小写)
+
+* eg: `hugo new site zhangsan.github.io-generator`
 *****
 ## Add a theme
 * 在当前目录下
@@ -45,14 +49,14 @@ Navigate to your new site at [你的博客预览](http://localhost:1313/).
 完成后生成`public`目录
 *****
 ## 上传至github
-* 先创建`.gitignore`,在其中加入`public`目录
-* 进入`pulic`目录 执行`git add`, `git commit`提交代码
+* 先创建`.gitignore`,`cd`进入`public`目录
+*  执行`git add`, `git commit`提交代码
 * 在github中创建以项目目录为名称(去掉-generator)的仓库
 * 执行`git remote add`以及`git push`操作
 *****
 ## 域名购买与应用
 * 了解即可
 ## 备份
-* 创建新的仓库 名称最好用项目目录，当前目录下执行git remote add以及git push操作
+* 创建新的仓库 名称最好用项目目录，项目目录下执行`git remote add`以及`git push`操作
 * 此时处于public上层目录
-* add提交的文件 出现错误提示时尽量删除不必要的.git目录
+* add提交的文件 出现错误提示时尽量删除不必要的.git目录,或主题
