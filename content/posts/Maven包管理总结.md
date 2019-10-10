@@ -73,6 +73,7 @@ groupId/artifactId/version，语义化版本
 
     ![](/images/MavenPackagemanagement/9.png)
 ## Maven——⾃动化构建⼯具
+
 * 祥见Maven实战
 
     
