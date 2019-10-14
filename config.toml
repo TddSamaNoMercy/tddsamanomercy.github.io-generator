@@ -1,5 +1,5 @@
 title = "Tdd的博客"
-baseURL = "https://example.com"
+baseURL = "https://tddsamanomercy.github.io"
 languageCode = "en-us"
 theme = "ananke"
 
@@ -19,7 +19,7 @@ enableRobotsTXT = true
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = ""
+  twitter = "https://twitter.com/tddSamaNoMercy"
   instagram = ""
   youtube = ""
   github = "https://github.com/TddSamaNoMercy"
